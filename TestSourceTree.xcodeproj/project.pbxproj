@@ -14,6 +14,7 @@
 		2D20D4B61AB2E502002BD231 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D20D4B51AB2E502002BD231 /* Images.xcassets */; };
 		2D20D4B91AB2E502002BD231 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20D4B71AB2E502002BD231 /* LaunchScreen.xib */; };
 		2D20D4C51AB2E502002BD231 /* TestSourceTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20D4C41AB2E502002BD231 /* TestSourceTreeTests.m */; };
+		2D20D4D01AB2E907002BD231 /* NSString+feature1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20D4CF1AB2E907002BD231 /* NSString+feature1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2D20D4BE1AB2E502002BD231 /* TestSourceTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSourceTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D20D4C31AB2E502002BD231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D20D4C41AB2E502002BD231 /* TestSourceTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSourceTreeTests.m; sourceTree = "<group>"; };
+		2D20D4CE1AB2E907002BD231 /* NSString+feature1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+feature1.h"; sourceTree = "<group>"; };
+		2D20D4CF1AB2E907002BD231 /* NSString+feature1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+feature1.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				2D20D4B51AB2E502002BD231 /* Images.xcassets */,
 				2D20D4B71AB2E502002BD231 /* LaunchScreen.xib */,
 				2D20D4A81AB2E502002BD231 /* Supporting Files */,
+				2D20D4CE1AB2E907002BD231 /* NSString+feature1.h */,
+				2D20D4CF1AB2E907002BD231 /* NSString+feature1.m */,
 			);
 			path = TestSourceTree;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				2D20D4B11AB2E502002BD231 /* ViewController.m in Sources */,
 				2D20D4AE1AB2E502002BD231 /* AppDelegate.m in Sources */,
+				2D20D4D01AB2E907002BD231 /* NSString+feature1.m in Sources */,
 				2D20D4AB1AB2E502002BD231 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
