@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    // 修正v1.0.1的版本
 }
 
 - (void)didReceiveMemoryWarning {
