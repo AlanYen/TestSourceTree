@@ -20,11 +20,21 @@
     
     
     // 修正v1.0.1的版本
+    
+    // f2
+    [self testFeature2];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)testFeature2 {
+    
+    // This is feature 2
+    NSString *f2 = @"This is feature 2";
+    NSLog(@"%@", f2);
 }
 
 @end
