@@ -1,4 +1,4 @@
 language: objective-c
 script:
-  - xctool  -workspace TestSourceTree.xcworkspace -scheme TestSourceTree -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-  - xctool  test -workspace TestSourceTree.xcworkspace -scheme TestSourceTreeTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool -projet TestSourceTree.xcodeproj -scheme TestSourceTree -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -projet TestSourceTree.xcodeproj -scheme TestSourceTreeTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
