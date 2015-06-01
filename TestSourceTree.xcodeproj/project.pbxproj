@@ -16,6 +16,7 @@
 		2D20D4C51AB2E502002BD231 /* TestSourceTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20D4C41AB2E502002BD231 /* TestSourceTreeTests.m */; };
 		2D20D4D01AB2E907002BD231 /* NSString+feature1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20D4CF1AB2E907002BD231 /* NSString+feature1.m */; };
 		2D20D4D21AB2EFC0002BD231 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 2D20D4D11AB2EFC0002BD231 /* ReadMe */; };
+		2DAD63DC1B1C60E80094EE04 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAD63DB1B1C60E80094EE04 /* Fabric.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		2D20D4CE1AB2E907002BD231 /* NSString+feature1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+feature1.h"; sourceTree = "<group>"; };
 		2D20D4CF1AB2E907002BD231 /* NSString+feature1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+feature1.m"; sourceTree = "<group>"; };
 		2D20D4D11AB2EFC0002BD231 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		2DAD63DB1B1C60E80094EE04 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAD63DC1B1C60E80094EE04 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +71,7 @@
 		2D20D49C1AB2E502002BD231 = {
 			isa = PBXGroup;
 			children = (
+				2DAD63DB1B1C60E80094EE04 /* Fabric.framework */,
 				2D20D4A71AB2E502002BD231 /* TestSourceTree */,
 				2D20D4C11AB2E502002BD231 /* TestSourceTreeTests */,
 				2D20D4A61AB2E502002BD231 /* Products */,
@@ -137,6 +141,7 @@
 				2D20D4A11AB2E502002BD231 /* Sources */,
 				2D20D4A21AB2E502002BD231 /* Frameworks */,
 				2D20D4A31AB2E502002BD231 /* Resources */,
+				2DAD63DA1B1C5FD00094EE04 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -222,6 +227,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DAD63DA1B1C5FD00094EE04 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D20D4A11AB2E502002BD231 /* Sources */ = {
@@ -354,6 +375,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Alan Yen (PA832N84H7)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestSourceTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,6 +391,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Contact Digital Integration Co., LTD (9KCLZQSG9B)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestSourceTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
