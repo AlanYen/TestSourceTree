@@ -18,14 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
     // 修正v1.0.1的版本
     
     // f2
     // [self testFeature2];
     
     // f3
-    [self testFeature3];
+    // [self testFeature3];
+
+    // f4
+    [self testFeature4];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,6 +47,13 @@
     // This is feature 3
     NSString *f3 = @"This is feature 3";
     NSLog(@"%@", f3);
+}
+
+- (void)testFeature4 {
+    
+    // This is feature 4
+    NSString *f4 = @"This is feature 4";
+    NSLog(@"%@", f4);
 }
 
 @end
