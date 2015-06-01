@@ -17,6 +17,7 @@
 		2D20D4D01AB2E907002BD231 /* NSString+feature1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20D4CF1AB2E907002BD231 /* NSString+feature1.m */; };
 		2D20D4D21AB2EFC0002BD231 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 2D20D4D11AB2EFC0002BD231 /* ReadMe */; };
 		2DAD63DC1B1C60E80094EE04 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAD63DB1B1C60E80094EE04 /* Fabric.framework */; };
+		2DAD63DE1B1C62B80094EE04 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAD63DD1B1C62B80094EE04 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2D20D4CF1AB2E907002BD231 /* NSString+feature1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+feature1.m"; sourceTree = "<group>"; };
 		2D20D4D11AB2EFC0002BD231 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		2DAD63DB1B1C60E80094EE04 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		2DAD63DD1B1C62B80094EE04 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAD63DE1B1C62B80094EE04 /* Crashlytics.framework in Frameworks */,
 				2DAD63DC1B1C60E80094EE04 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +74,7 @@
 		2D20D49C1AB2E502002BD231 = {
 			isa = PBXGroup;
 			children = (
+				2DAD63DD1B1C62B80094EE04 /* Crashlytics.framework */,
 				2DAD63DB1B1C60E80094EE04 /* Fabric.framework */,
 				2D20D4A71AB2E502002BD231 /* TestSourceTree */,
 				2D20D4C11AB2E502002BD231 /* TestSourceTreeTests */,
