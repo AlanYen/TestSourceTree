@@ -26,7 +26,7 @@
     // f3
     // [self testFeature3];
 
-    // f4
+    // f4 test
     [self testFeature4];
 }
 
