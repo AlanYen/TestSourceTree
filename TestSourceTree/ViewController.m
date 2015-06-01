@@ -26,8 +26,11 @@
     // f3
     // [self testFeature3];
 
-    // f4 test
-    [self testFeature4];
+    // f4
+    // [self testFeature4];
+    
+    // f5
+    [self testFeature5];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -54,6 +57,13 @@
     // This is feature 4
     NSString *f4 = @"This is feature 4";
     NSLog(@"%@", f4);
+}
+
+- (void)testFeature5 {
+    
+    // This is feature 5
+    NSString *f5 = @"This is feature 5";
+    NSLog(@"%@", f5);
 }
 
 @end
