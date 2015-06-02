@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>255D6973-96AF-44B2-AF98-1271DD0C95F2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TestSourceTree</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2D3F0EF02E547DC48EF24E1C95BAA14A4F3C45E4</key>
 		<string>github.com:AlanYen/TestSourceTree.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TestSourceTree.xcodeproj</string>
+	<string>TestSourceTree.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2D3F0EF02E547DC48EF24E1C95BAA14A4F3C45E4</key>
