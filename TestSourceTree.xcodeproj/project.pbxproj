@@ -390,7 +390,7 @@
 				INFOPLIST_FILE = TestSourceTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3f349856-e67b-4bef-a641-d112d382ee16";
+				PROVISIONING_PROFILE = "d3654dfe-3686-4681-87c6-fb230faa81b8";
 			};
 			name = Debug;
 		};
@@ -406,7 +406,7 @@
 				INFOPLIST_FILE = TestSourceTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3f349856-e67b-4bef-a641-d112d382ee16";
+				PROVISIONING_PROFILE = "d3654dfe-3686-4681-87c6-fb230faa81b8";
 			};
 			name = Release;
 		};

@@ -31,6 +31,8 @@
     
     // f5
     [self testFeature5];
+    
+    NSObject *a;
 }
 
 - (void)didReceiveMemoryWarning {
