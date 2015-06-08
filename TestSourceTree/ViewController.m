@@ -33,6 +33,10 @@
     [self testFeature5];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    NSLog(@"123");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
